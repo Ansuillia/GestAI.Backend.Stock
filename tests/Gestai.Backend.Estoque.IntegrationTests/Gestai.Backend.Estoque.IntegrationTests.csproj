@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="FakeItEasy" Version="8.0.0" />
-    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
@@ -25,10 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Gestai.Backend.Estoque.Core\Gestai.Bakend.Estoque.Core.csproj" />
-    <ProjectReference Include="..\..\src\Gestai.Backend.Estoque.Infra\Gestai.Bakend.Estoque.Infra.csproj" />
-    <ProjectReference Include="..\..\src\Gestai.Backend.Estoque.App\Gestai.Bakend.Estoque.App.csproj" />
-    <ProjectReference Include="..\..\src\Gestai.Backend.Estoque.Business\Gestai.Bakend.Estoque.Business.csproj" />
+    <ProjectReference Include="..\..\src\Core\Gestai.Bakend.Estoque.Core.csproj" />
+    <ProjectReference Include="..\..\src\Infra\Gestai.Bakend.Estoque.Infra.csproj" />
+    <ProjectReference Include="..\..\src\App\Gestai.Bakend.Estoque.App.csproj" />
+    <ProjectReference Include="..\..\src\Business\Gestai.Bakend.Estoque.Business.csproj" />
   </ItemGroup>
 
 </Project>

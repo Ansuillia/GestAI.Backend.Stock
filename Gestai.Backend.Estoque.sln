@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{07FA7C30-F0C8-4128-A716-A2E40169977B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestai.Bakend.Estoque.App", "src\Gestai.Backend.Estoque.App\Gestai.Bakend.Estoque.App.csproj", "{9943460A-1369-406E-BB76-095820062F2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestai.Bakend.Estoque.App", "src\App\Gestai.Bakend.Estoque.App.csproj", "{9943460A-1369-406E-BB76-095820062F2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestai.Bakend.Estoque.Infra", "src\Gestai.Backend.Estoque.Infra\Gestai.Bakend.Estoque.Infra.csproj", "{EC6661C5-6409-4677-A44F-FB5798853789}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestai.Bakend.Estoque.Infra", "src\Infra\Gestai.Bakend.Estoque.Infra.csproj", "{EC6661C5-6409-4677-A44F-FB5798853789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestai.Bakend.Estoque.Core", "src\Gestai.Backend.Estoque.Core\Gestai.Bakend.Estoque.Core.csproj", "{278F016B-8A1A-40AD-9A81-01590B7339AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestai.Bakend.Estoque.Core", "src\Core\Gestai.Bakend.Estoque.Core.csproj", "{278F016B-8A1A-40AD-9A81-01590B7339AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F5FD28A2-1D08-427C-A350-C825681A476A}"
 EndProject
@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestai.Backend.Estoque.Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestai.Backend.Estoque.UnitTests", "tests\Gestai.Backend.Estoque.UnitTests\Gestai.Backend.Estoque.UnitTests.csproj", "{1FE9F7AE-B000-4A15-8592-6D2451A3C1CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestai.Bakend.Estoque.Business", "src\Gestai.Backend.Estoque.Business\Gestai.Bakend.Estoque.Business.csproj", "{6AD4D22E-1BB7-4B58-AC82-A125AA3EA587}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestai.Bakend.Estoque.Business", "src\Business\Gestai.Bakend.Estoque.Business.csproj", "{6AD4D22E-1BB7-4B58-AC82-A125AA3EA587}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
