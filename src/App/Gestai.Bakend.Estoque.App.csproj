@@ -16,4 +16,9 @@
     <PackageReference Include="AWS.Lambda.Powertools.Tracing" Version="1.3.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Gestai.Bakend.Estoque.Core.csproj" />
+    <ProjectReference Include="..\Business\Gestai.Bakend.Estoque.Business.csproj" />
+  </ItemGroup>
+
 </Project>

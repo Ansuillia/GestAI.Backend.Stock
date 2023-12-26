@@ -1,8 +1,8 @@
 using System.Net;
 using Amazon.Lambda.APIGatewayEvents;
 using Amazon.Lambda.TestUtilities;
-using Amazon.XRay.Model;
 using Gestai.Backend.Estoque.App;
+using Gestai.Backend.Estoque.Core.Contracts;
 
 namespace Gestai.Backend.Estoque.UnitTests;
 
@@ -12,12 +12,19 @@ public class FuntionTests
   public async Task When_Call_Function_Handler_With_Get_Should_Perform_Success()
   {
     // Given
+    var context = new TestLambdaContext();
     var request = new APIGatewayProxyRequest
     {
       HttpMethod = HttpMethod.Get.ToString(),
     };
+    var response = new APIGatewayProxyResponse{
+      Body = "Tests",
+      StatusCode = (int)HttpStatusCode.OK
+    };
 
-    var context = new TestLambdaContext();
+    var _fakeApiExecutor = A.Fake<IApiGatewayExecutor>();
+
+    A.CallTo(() => _fakeApiExecutor.MakeBehavior(request)).Returns(Task.FromResult(response));
 
     var function = new Function();
   
