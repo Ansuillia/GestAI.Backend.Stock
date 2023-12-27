@@ -1,11 +1,11 @@
 
 
 using Amazon.Lambda.APIGatewayEvents;
-using Gestai.Backend.Estoque.App.Exeptions;
+using Gestai.Backend.Stock.App.Common;
+using Gestai.Backend.Stock.App.Exeptions;
 using Microsoft.Extensions.DependencyInjection;
-using Gestai.Backend.Estoque.App.Common;
 
-namespace Gestai.Backend.Estoque.App.Handlers.ApiGateway;
+namespace Gestai.Backend.Stock.App.Handlers.ApiGateway;
 
 public class ApiGatewayExecutor
 {

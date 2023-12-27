@@ -1,7 +1,7 @@
 
 using Amazon.Lambda.APIGatewayEvents;
 
-namespace Gestai.Backend.Estoque.App.Contracts.Behaviors;
+namespace Gestai.Backend.Stock.App.Contracts.Behaviors;
 
 public interface IApiGatewayBehavior : IDisposable
 {

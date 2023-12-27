@@ -1,8 +1,8 @@
 
-using System.Text.Json;
 using Amazon.Lambda.APIGatewayEvents;
+using System.Text.Json;
 
-namespace Gestai.Backend.Estoque.App.Common;
+namespace Gestai.Backend.Stock.App.Common;
 
 public static class HttpResponse
 {

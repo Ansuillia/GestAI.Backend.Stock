@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\Gestai.Bakend.Estoque.Core.csproj" />
+    <ProjectReference Include="..\Core\Gestai.Backend.Stock.Core.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

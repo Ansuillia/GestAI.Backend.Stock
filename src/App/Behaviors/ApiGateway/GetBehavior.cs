@@ -1,10 +1,10 @@
 using Amazon.Lambda.APIGatewayEvents;
-using Gestai.Backend.Estoque.App.Common;
-using Gestai.Backend.Estoque.App.Contracts.Behaviors;
-using Gestai.Backend.Estoque.App.Handlers.ApiGateway;
+using Gestai.Backend.Stock.App.Common;
+using Gestai.Backend.Stock.App.Contracts.Behaviors;
+using Gestai.Backend.Stock.App.Handlers.ApiGateway;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Gestai.Backend.Estoque.App.Behaviors.ApiGateway;
+namespace Gestai.Backend.Stock.App.Behaviors.ApiGateway;
 
 public class GetBehavior : BaseBehavior, IApiGatewayBehavior
 {

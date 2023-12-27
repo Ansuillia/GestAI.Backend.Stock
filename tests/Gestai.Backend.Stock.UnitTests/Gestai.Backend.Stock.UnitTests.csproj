@@ -28,10 +28,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\App\Gestai.Bakend.Estoque.App.csproj" />
-    <ProjectReference Include="..\..\src\Infra\Gestai.Bakend.Estoque.Infra.csproj" />
-    <ProjectReference Include="..\..\src\Core\Gestai.Bakend.Estoque.Core.csproj" />
-    <ProjectReference Include="..\..\src\Business\Gestai.Bakend.Estoque.Business.csproj" />
+    <ProjectReference Include="..\..\src\App\Gestai.Backend.Stock.App.csproj" />
+    <ProjectReference Include="..\..\src\Infra\Gestai.Backend.Stock.Infra.csproj" />
+    <ProjectReference Include="..\..\src\Core\Gestai.Backend.Stock.Core.csproj" />
+    <ProjectReference Include="..\..\src\Business\Gestai.Backend.Stock.Business.csproj" />
   </ItemGroup>
 
 </Project>

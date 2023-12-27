@@ -1,4 +1,4 @@
-namespace Gestai.Backend.Estoque.App.Exeptions;
+namespace Gestai.Backend.Stock.App.Exeptions;
 
 public class MethodNotAllowedException : Exception
 {

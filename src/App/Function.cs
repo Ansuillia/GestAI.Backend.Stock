@@ -1,14 +1,14 @@
 using System.Net;
 using Amazon.Lambda.APIGatewayEvents;
 using Amazon.Lambda.Core;
-using Gestai.Backend.Estoque.App.Handlers.ApiGateway;
+using Gestai.Backend.Stock.App.Handlers.ApiGateway;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
 
-namespace Gestai.Backend.Estoque.App;
+namespace Gestai.Backend.Stock.App;
 
 public class Function : IDisposable
 {

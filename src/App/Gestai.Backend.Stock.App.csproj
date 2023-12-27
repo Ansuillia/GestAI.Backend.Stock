@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\Gestai.Bakend.Estoque.Core.csproj" />
-    <ProjectReference Include="..\Business\Gestai.Bakend.Estoque.Business.csproj" />
+    <ProjectReference Include="..\Core\Gestai.Backend.Stock.Core.csproj" />
+    <ProjectReference Include="..\Business\Gestai.Backend.Stock.Business.csproj" />
   </ItemGroup>
 
 </Project>

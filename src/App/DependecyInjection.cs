@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Gestai.Backend.Estoque.App;
+namespace Gestai.Backend.Stock.App;
 
 public static class DependencyInjection
 {
