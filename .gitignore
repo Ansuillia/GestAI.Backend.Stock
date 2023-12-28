@@ -484,4 +484,4 @@ $RECYCLE.BIN/
 *.swp
 
 # Evita conflito com regra app para Mac
-!*Estoque.App*
+!*Stock.App*
