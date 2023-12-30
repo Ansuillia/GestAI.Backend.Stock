@@ -2,10 +2,10 @@ using Gestai.Backend.Stock.Core.Models;
 
 namespace Gestai.Backend.Stock.UnitTests.Fixtures;
 
-public static class StockItemFixture
+public static class StockFixture
 {
-  public static IList<StockItem> StockItems
-    => new List<StockItem>
+  public static IList<ProductStock> Stocks
+    => new List<ProductStock>
     {
       new(new Product("Product One", "For sale"){ Id = 1 }),
       new(new Product("Product Two", "For sale"){ Id = 2 }),

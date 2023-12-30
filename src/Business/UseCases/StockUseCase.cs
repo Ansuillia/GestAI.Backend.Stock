@@ -10,14 +10,14 @@ public class StockUseCase : IStockUseCase
   {
     _stockGateway = stockGateway;
   }
-  public async Task<StockItem> CreateProductAsync(Product product, int quantity)
+  public async Task<ProductStock> CreateProductAsync(Product product, int quantity)
   {
-    var stockItem = new StockItem(product);
-    stockItem.Increment(quantity);
-    return await _stockGateway.CreateProductAsync(stockItem);
+    var Stock = new Stock(product);
+    Stock.Increment(quantity);
+    return await _stockGateway.CreateProductAsync(Stock);
   }
 
-  public Task<StockItem> DecrementProductAsync(int productId, int quantity)
+  public Task<ProductStock> DecrementProductAsync(int productId, int quantity)
   {
     throw new NotImplementedException();
   }
@@ -32,17 +32,17 @@ public class StockUseCase : IStockUseCase
     throw new NotImplementedException();
   }
 
-  public Task<StockItem> EditProductAsync(int productId, string name, string description)
+  public Task<ProductStock> EditProductAsync(int productId, string name, string description)
   {
     throw new NotImplementedException();
   }
 
-  public Task<IEnumerable<StockItem>> GetNegativeProductsAsync()
+  public Task<IEnumerable<ProductStock>> GetNegativeProductsAsync()
   {
     throw new NotImplementedException();
   }
 
-  public Task<StockItem> IncrementProductAsync(int productId, int quantity)
+  public Task<ProductStock> IncrementProductAsync(int productId, int quantity)
   {
     throw new NotImplementedException();
   }

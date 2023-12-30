@@ -16,12 +16,12 @@ namespace Gestai.Backend.Stock.UnitTests.Business.UseCases
     public async Task When_Call_CreateProductAsync_Should_Have_Perform_Success()
     {
       var fakeGateway = A.Fake<IStockGateway>();
-      A.CallTo(() => fakeGateway.CreateProductAsync(A<StockItem>._))
-        .Returns(Task.FromResult(A.Dummy<StockItem>()));
+      A.CallTo(() => fakeGateway.CreateProductAsync(A<ProductStock>._))
+        .Returns(Task.FromResult(A.Dummy<ProductStock>()));
 
       var stockUseCase = new StockUseCase(fakeGateway);
       var result = await stockUseCase.CreateProductAsync(A.Dummy<Product>(), 10);
-      A.CallTo(() => fakeGateway.CreateProductAsync(A<StockItem>._)).MustHaveHappenedOnceExactly();
+      A.CallTo(() => fakeGateway.CreateProductAsync(A<ProductStock>._)).MustHaveHappenedOnceExactly();
     }
   }
 }

@@ -1,17 +1,18 @@
 namespace Gestai.Backend.Stock.Core.Models;
 
-public class StockItem
+public class ProductStock
 {
+  public long Id { get; set; }
   public Product? Product { get; set; }
   private int _quantity;
   public int Quantity => _quantity;
 
-  protected StockItem()
+  protected ProductStock()
   {
     
   }
 
-  public StockItem(Product product)
+  public ProductStock(Product product)
   {
     Product = product;
   }

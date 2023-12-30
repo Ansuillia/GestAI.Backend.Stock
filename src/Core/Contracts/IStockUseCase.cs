@@ -4,12 +4,12 @@ namespace Gestai.Backend.Stock.Core.Contracts;
 
 public interface IStockUseCase
 {
-  Task<StockItem> IncrementProductAsync(int productId, int quantity);
-  Task<StockItem> DecrementProductAsync(int productId, int quantity);
-  Task<StockItem> CreateProductAsync(Product product, int quantity);
-  Task<StockItem> EditProductAsync(int productId, string name, string description);
+  Task<ProductStock> IncrementProductAsync(int productId, int quantity);
+  Task<ProductStock> DecrementProductAsync(int productId, int quantity);
+  Task<ProductStock> CreateProductAsync(Product product, int quantity);
+  Task<ProductStock> EditProductAsync(int productId, string name, string description);
   Task DeleteProductAsync(int productId);
   Task DeleteProductAsync(Product product);
-  Task<IEnumerable<StockItem>> GetNegativeProductsAsync();
+  Task<IEnumerable<ProductStock>> GetNegativeProductsAsync();
   
 }
